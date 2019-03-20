@@ -6,7 +6,7 @@ use SilverStripe\View\Requirements;
 class FlyingFocusExtension extends Extension {
 
 	public function onAfterInit() {
-		Requirements::javascript('resources/vendor/dia-nz/silverstripe-flying-focus/javascript/flying-focus.js');
+		Requirements::javascript('resources/flyingfocus/javascript/flying-focus.js');
 	}
 
 }
